@@ -13,9 +13,11 @@ class MyApp extends StatelessWidget {
           title: Text('I Am Poor'),
           backgroundColor: Colors.green[900],
         ),
-//        body: Center(
-//          child: Image(),
-//        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/poor.png'),
+          ),
+        ),
       ),
     );
   }
